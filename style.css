@@ -230,6 +230,7 @@ article h1, article h2 {
 
 table {
     width: 100%;
+    font-size: 1em;
 }
 
 tr {
@@ -460,7 +461,7 @@ footer {
 
 /* ADAPTIVE */
 
-@media (max-width: 960px) {
+@media (max-width: 1080px) {
     html {
         font-size: 13px;
     }
