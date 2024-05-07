@@ -235,6 +235,10 @@ table {
     font-size: 1em;
 }
 
+table a {
+    font-size: 1em;
+}
+
 tr {
     border-bottom: 1px solid #003D5B;
 }
@@ -417,7 +421,6 @@ footer {
 
 .index-content {
     display: block;
-    min-height: 68.5vh;
 }
 
 .solo-content {
@@ -454,33 +457,26 @@ footer {
 /* ADAPTIVE */
 
 @media (max-width: 1080px) {
-    html {
-        font-size: 16px;
-    }
 
     p {
         font-size: 1em;
     }
 
     .header-list {
-        height: 100px;
+        height: 60px;
         justify-content: space-around;
     }
 
     .header-logo {
-        width: 80px;
+        width: 50px;
     }
 
     .top {
         display: none;
     }
 
-    .solo-main {
-        margin-top: 100px;
-    }
-
     .two-side {
-        margin-top: 120px;
+        margin-top: 80px;
     }
 
     .aside-container {
@@ -502,7 +498,7 @@ footer {
     .nav-bottom-list {
         gap: 10px;
         height: 40px;
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     .news-item {
@@ -515,7 +511,7 @@ footer {
     }
 
     .footer-list {
-        height: 250px;
+        height: 200px;
         flex-direction: column;
         justify-content: center;
         font-size: 1em;
@@ -528,7 +524,7 @@ footer {
     }
 
     .footer-b {
-        line-height: 80px;
+        line-height: 50px;
     }
 
     .index-slogan {
@@ -541,7 +537,7 @@ footer {
     }
 
     .solo-content {
-        margin-top: 130px;
+        margin-top: 90px;
     }
 
     .index-article {
