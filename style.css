@@ -32,6 +32,11 @@ h1, h2 {
 p {
     text-align: justify;
     text-wrap: balance;
+    font-size: 0.9em;
+}
+
+li {
+    font-size: 1em;
 }
 
 a {
@@ -305,7 +310,6 @@ th, td {
 }
 
 .p-news {
-    font-size: 0.9em;
     font-weight: 400;
     margin-bottom: 10px;
 }
@@ -314,20 +318,6 @@ th, td {
     font-size: 0.8em;
     font-weight: bold;
 }
-
-/* index-content solo-main 
-
-.solo-side {
-    width: 70%;
-    margin: auto;
-    margin-bottom: 40px;
-    border-bottom: none;
-}
-
-.solo-side:last-child {
-    margin-bottom: 0;
-    padding-bottom: 20px;
-}*/
 
 /* Нижнее меню (Быстрый доступ) */
 
@@ -463,7 +453,7 @@ footer {
 
 @media (max-width: 1080px) {
     html {
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .header-list {
@@ -496,10 +486,6 @@ footer {
 
     .level-2 {
         padding: 0;
-    }
-
-    .nav-aside-item {
-        font-size: 0.9em;
     }
 
     .nav-bottom-list {
@@ -542,6 +528,6 @@ footer {
     }
 
     .h1-index {
-        font-size: 32px;
+        font-size: 2.5em;
     }
 }
