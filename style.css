@@ -1,9 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: content-box;
     font-family: 'Montserrat', sans-serif;
-    font-optical-sizing: auto;
     letter-spacing: 0.05rem;
     color: #333333;
 }
@@ -423,6 +420,11 @@ footer {
     min-height: 68.5vh;
 }
 
+.solo-content {
+    display: block;
+    min-height: 68.5vh;
+}
+
 .index-article {
     width: 70%;
     margin: 60px auto;
@@ -456,13 +458,17 @@ footer {
         font-size: 16px;
     }
 
+    p {
+        font-size: 1em;
+    }
+
     .header-list {
-        height: 50px;
+        height: 100px;
         justify-content: space-around;
     }
 
     .header-logo {
-        width: 35px;
+        width: 80px;
     }
 
     .top {
@@ -470,11 +476,11 @@ footer {
     }
 
     .solo-main {
-        margin-top: 80px;
+        margin-top: 100px;
     }
 
     .two-side {
-        margin-top: 70px;
+        margin-top: 120px;
     }
 
     .aside-container {
@@ -484,6 +490,11 @@ footer {
         max-width: 200px;
     }
 
+    .press-list {
+        min-width: 140px;
+        max-width: 100px;
+    }
+
     .level-2 {
         padding: 0;
     }
@@ -491,6 +502,7 @@ footer {
     .nav-bottom-list {
         gap: 10px;
         height: 40px;
+        font-size: 1em;
     }
 
     .news-item {
@@ -498,10 +510,15 @@ footer {
         display: inline-block;
     }
 
+    .h3-news {
+        font-size: 1.2em;
+    }
+
     .footer-list {
-        height: 180px;
+        height: 250px;
         flex-direction: column;
         justify-content: center;
+        font-size: 1em;
         gap: 20px;
     }
 
@@ -511,16 +528,20 @@ footer {
     }
 
     .footer-b {
-        line-height: 35px;
+        line-height: 80px;
     }
 
     .index-slogan {
         height: 350px;
-        padding-top: 50px;
+        padding-top: 100px;
     }
 
     .index-content {
         padding-top: 0px;
+    }
+
+    .solo-content {
+        margin-top: 130px;
     }
 
     .index-article {
